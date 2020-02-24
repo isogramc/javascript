@@ -1,0 +1,23 @@
+
+body{
+    background-color: aqua;
+}
+
+.page-wrap{
+    width: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-local{
+  object-fit: fill;
+  object-position: 100% 0;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+}
+
